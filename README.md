@@ -8,6 +8,6 @@ This notes aims to provide a simple and searchable solution for review purpose. 
 
 All explanations are from my own understanding, so accuracy is not guaranteed, so best to take this notes as a supplemental material.
 
-Here is the note: [shorturl.at/kGLS7](shorturl.at/kGLS7)
+Here is the note: [shorturl.at/kGLS7](http://shorturl.at/kGLS7)
 
 Enjoy your study!
