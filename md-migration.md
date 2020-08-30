@@ -74,7 +74,6 @@
     - Vs CodeDeploy
   - ***Lightsail***
 
-
 - **Storage**
   - ***S3***
     - Operational & efficiency
@@ -126,51 +125,43 @@
   - ***Storage Gateway***
   - ***Snowball edge***
 
-
-
-
-
-Database 
-RDS
-Operational & efficiency
-RDS cloudwatch metrics & enhanced monitoring metrics 
-How to access the OS of a DB?
-Parameter groups
-MySQL engines: InnoDB vs MyISAM
-Security 
-IAM DB authentication
-SSL is Available for in-transit encryption between server and DB 
-Reliability 
-Multi-AZ Deployment
-Vs read replica
-Aurora vs other RDS(MySQL etc) multi-AZ architecture
-Comparison
-Vs DynamoDB
-Aurora
-Serverless mechanism 
-Serverless DB cluster vs provisioned DB cluster
-Aurora Cluster: Read/write roles and endpoints
-Parallel query
-Failover of primary instance
-DynamoDB
-Vs RDS
-Serverless: on-demand mode vs provisioned capacity vs auto scaling
-Partition keys
-DynamoDB Accelerator (DAX)
-DynamoDB stream
-Integration with Lambda
-Integration with Kinesis Adapter
-Redshift
-Vs RDS
-Spectrum vs Athena vs S3 select
-Enhanced VPC routing
-Redshift and Business intelligence
-ElastiCache
-Redis AUTH
-
-
-
-
+- **Database**
+  - ***RDS***
+    - Operational & efficiency
+      - RDS cloudwatch metrics & enhanced monitoring metrics 
+      - How to access the OS of a DB?
+      - Parameter groups
+      - MySQL engines: InnoDB vs MyISAM
+    - Security 
+      - IAM DB authentication
+      - SSL is Available for in-transit encryption between server and DB 
+    - Reliability 
+      - Multi-AZ Deployment
+      - Vs read replica
+      - Aurora vs other RDS(MySQL etc) multi-AZ architecture
+    - Comparison
+      - Vs DynamoDB
+    - Aurora
+      - Serverless mechanism 
+      - Serverless DB cluster vs provisioned DB cluster
+      - Aurora Cluster: Read/write roles and endpoints
+      - Parallel query
+      - Failover of primary instance
+  - ***DynamoDB***
+    - Vs RDS
+    - Serverless: on-demand mode vs provisioned capacity vs auto scaling
+    - Partition keys
+    - DynamoDB Accelerator (DAX)
+    - DynamoDB stream
+      - Integration with Lambda
+      - Integration with Kinesis Adapter
+  - ***Redshift***
+    - Vs RDS
+    - Spectrum vs Athena vs S3 select
+    - Enhanced VPC routing
+    - Redshift and Business intelligence
+  - ***ElastiCache***
+    - Redis AUTH
 
 Networking & Content Delivery
 VPC
