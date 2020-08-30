@@ -1,6 +1,6 @@
 ## Index
 
-- Background & Miscellaneous
+- **Background & Miscellaneous**
   - RAID
   - SSL certificate
   - CIDR
@@ -17,8 +17,8 @@
   - Disaster recovery architecture
     - Backup & Restore vs Warm Standby vs Multi site vs Pilot Light
     - RTO & RPO
-- Compute
-  - EC2
+- **Compute**
+  - ***EC2***
     - Operational & efficiency
       - Default instance# limits -- 20 instances per region
       - ParallelCluster 
@@ -55,7 +55,7 @@
       - Pricing for spot instance
       - Pricing for on-demand instance
       - Cost of EIP
-  - Lambda
+  - ***Lambda***
     - Operational & efficiency
       - Invocation types
         - Integration with AWS services
@@ -70,9 +70,9 @@
       - Encrypt environment variables
     - Comparison
       - Vs EC2
-  - Elastic Beanstalk
+  - ***Elastic Beanstalk***
     - Vs CodeDeploy
-  - Lightsail 
+  - ***Lightsail***
 
 
   
