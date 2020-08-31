@@ -270,35 +270,35 @@
 
 - **Security, Identity & Compliance**
   - ***IAM***
-  IAM DB authentication
-  Access keys
-  Console sign-in for additional IAM users
-  Transfer ownership of S3 object to another AWS account 
-  Cross-account access 
-  IAM certificate store to manage certificates in regions that do not support ACM
-  Vs Organizations
+    - IAM DB authentication
+    - Access keys
+    - Console sign-in for additional IAM users
+    - Transfer ownership of S3 object to another AWS account 
+    - Cross-account access 
+    - IAM certificate store to manage certificates in regions that do not support ACM
+    - Vs Organizations
   - ***STS***
-  How to connect to AWS using login credentials of on-premise networks?
-  Web identity federation vs SAML-based federation
-  Vs Cognito vs SSO
+    - How to connect to AWS using login credentials of on-premise networks?
+    - Web identity federation vs SAML-based federation
+    - Vs Cognito vs SSO
   - ***Cognito (AWS identity provider)***
-  Identity Pool vs user pool
-  How to provide temporary aws credentials to third party users by Cognito?
-  Vs STS vs SSO
+    - Identity Pool vs user pool
+    - How to provide temporary aws credentials to third party users by Cognito?
+    - Vs STS vs SSO
   - ***WAF***
-  Vs security groups vs NACL
-  WAF behaviour
-  Vs GuardDuty
-  vs Firewall manager vs shield 
+    - Vs security groups vs NACL
+    - WAF behaviour
+    - Vs GuardDuty
+    - vs Firewall manager vs shield 
   - ***Resource access manager (RAM)***
-  Vs aws organizations
+    - Vs aws organizations
   - ***Macie***
-  vs GuardDuty vs Amazon Inspector
-  vs Rekognition
+    - vs GuardDuty vs Amazon Inspector
+    - vs Rekognition
   - ***Shield***
-  How to defend DDos attacks?
+    - How to defend DDos attacks?
   - ***Directory Service***
-  Active directory
+    - Active directory
   - ***Secret manager***
   - ***CloudHSM***
   
