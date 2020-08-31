@@ -242,118 +242,99 @@
   - ***AWS Organizations***
     - Vs resource access manager
     - Service control policy (SCP) vs IAM policy
-  - ***AWS Control Tower
+  - ***AWS Control Tower***
     - Vs organizations
-  - ***OpsWorks
+  - ***OpsWorks***
     - Vs CloudFormation
-  - ***CloudFormation
+  - ***CloudFormation***
     - CreationPolicy and cfn-signal
     - Template structure
-  - ***Trusted advisor
+  - ***Trusted advisor***
 
 
-
-Analytics 
-Elasticsearch Service
-Data pipeline
-Athena
-EMR vs Athena vs Neptune
-Vs Redshift Spectrum vs S3 select
-EMR
-EMR vs Athena vs Neptune
-Common use cases
-Kinesis
-Kinesis data stream architecture
-Kinesis data/videos stream + lambda
-Reshard operation
-Kinesis data firehose
-
+- **Analytics**
+  - ***Elasticsearch Service***
+  - ***Data pipeline***
+  - ***Athena***
+    EMR vs Athena vs Neptune
+    Vs Redshift Spectrum vs S3 select
+  - ***EMR***
+    EMR vs Athena vs Neptune
+    Common use cases
+  - ***Kinesis***
+    - Kinesis data stream architecture
+      - Kinesis data/videos stream + lambda
+      - Reshard operation
+    - Kinesis data firehose
 
 
+- **Security, Identity & Compliance**
+  - ***IAM***
+  IAM DB authentication
+  Access keys
+  Console sign-in for additional IAM users
+  Transfer ownership of S3 object to another AWS account 
+  Cross-account access 
+  IAM certificate store to manage certificates in regions that do not support ACM
+  Vs Organizations
+  - ***STS***
+  How to connect to AWS using login credentials of on-premise networks?
+  Web identity federation vs SAML-based federation
+  Vs Cognito vs SSO
+  - ***Cognito (AWS identity provider)***
+  Identity Pool vs user pool
+  How to provide temporary aws credentials to third party users by Cognito?
+  Vs STS vs SSO
+  - ***WAF***
+  Vs security groups vs NACL
+  WAF behaviour
+  Vs GuardDuty
+  vs Firewall manager vs shield 
+  - ***Resource access manager (RAM)***
+  Vs aws organizations
+  - ***Macie***
+  vs GuardDuty vs Amazon Inspector
+  vs Rekognition
+  - ***Shield***
+  How to defend DDos attacks?
+  - ***Directory Service***
+  Active directory
+  - ***Secret manager***
+  - ***CloudHSM***
+  
+- **Containers**
+  - ***ECS***
+    - Store sensitive data in containers
+
+- **Application Integration**
+  - ***SNS***
+  - ***SQS***
+    - Short polling vs long polling
+    - Standard queue and FIFO queue
+    - MQ vs SQS
+    - Message constraints -- retention period & visibility timeout
+  - ***SWF***
+    - Each workflow execution can run for a maximum of 1 year by default
+    - Step functions vs SWF
+
+- **AWS Cost Management**
+  - AWS Budgets vs Cost Explorer
+
+- **Mobile**
+  - AppSync
+  - Amplify/MobileHub
 
 
-Security, Identity & Compliance
-IAM
-IAM DB authentication
-Access keys
-Console sign-in for additional IAM users
-Transfer ownership of S3 object to another AWS account 
-Cross-account access 
-IAM certificate store to manage certificates in regions that do not support ACM
-Vs Organizations
-STS
-How to connect to AWS using login credentials of on-premise networks?
-Web identity federation vs SAML-based federation
-Vs Cognito vs SSO
-Cognito (AWS identity provider)
-Identity Pool vs user pool
-How to provide temporary aws credentials to third party users by Cognito?
-Vs STS vs SSO
-WAF
-Vs security groups vs NACL
-WAF behaviour
-Vs GuardDuty
-vs Firewall manager vs shield 
-Resource access manager (RAM)
-Vs aws organizations
-Macie 
-vs GuardDuty vs Amazon Inspector
-vs Rekognition
-AWS Shield 
-How to defend DDos attacks?
-Directory Service
-Active directory
-Secret manager
-CloudHSM
-Containers
-ECS
-Store sensitive data in containers
+- **Developer tools**
+  - ***CodeDeploy***
+    - Traffic shifting
+    - Vs Beanstalk
 
+- **End user computing**
+  - Amazon workspaces 
 
-
-
-
-
-Application Integration
-SNS
-SQS
-Short polling vs long polling
-Standard queue and FIFO queue
-MQ vs SQS
-Message constraints -- retention period & visibility timeout
-SWF
-Each workflow execution can run for a maximum of 1 year by default
-Step functions vs SWF
-
-
-
-
-AWS Cost Management
-AWS Budgets vs Cost Explorer
-
-
-Mobile
-AppSync
-Amplify/MobileHub
-
-
-
-
-Developer tools 
-CodeDeploy
- Traffic shifting
-Vs Beanstalk
-
-
-
-End user computing 
-Amazon workspaces 
-
-
-
-
-Migration & Transfer
-Database migration service
+- **Migration & Transfer**
+  - Database migration service
 
   
   
