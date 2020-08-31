@@ -196,24 +196,24 @@
     - Origin Access Identity (OAI) 
     - Vs Global Accelerator
   - ***Route53***
-    -BYOIP: Bring your own IP
-    -Alias 
-    -Routing policy: Geo-Proximity vs geolocation 
-    -Vs ELB
-    -Active-active failover vs active-passive failover
+    - BYOIP: Bring your own IP
+    - Alias 
+    - Routing policy: Geo-Proximity vs geolocation 
+    - Vs ELB
+    - Active-active failover vs active-passive failover
   - ***ELB***
-    -Network LB vs Application LB vs Classic LB
-    -Routing algorithms 
-    -Weighted target Group for Application LB
-    -Vs Route53
-    -Cross-zone load balancing
-    -Connection draining
-    -Sticky sessions
-    -HTTP use port 80, HTTPS use port 443
+    - Network LB vs Application LB vs Classic LB
+    - Routing algorithms 
+    - Weighted target Group for Application LB
+    - Vs Route53
+    - Cross-zone load balancing
+    - Connection draining
+    - Sticky sessions
+    - HTTP use port 80, HTTPS use port 443
   - ***API Gateway***
-    -How to protect the backend from traffic spikes?
-    -Use X-ray to trace and analyze detailed API calls
-    -Protocol endpoints exposure
+    - How to protect the backend from traffic spikes?
+    - Use X-ray to trace and analyze detailed API calls
+    - Protocol endpoints exposure
   - ***App Mesh***
   - ***Cloud Map***
 
