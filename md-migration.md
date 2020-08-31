@@ -217,47 +217,39 @@
   - ***App Mesh***
   - ***Cloud Map***
 
-
-
-
-
-
-
-Management & Governance
-CloudWatch
-CloudTrail vs CloudWatch vs X-Ray 
-Cloudwatch logs vs CloudTrail vs VPC flow logs
-Metrics 
-EC2 metrics and detailed monitoring
-Lambda metrics
-Cloudwatch agent
-CloudWatch alarm actions
-Vs Cloudwatch Events
-Cloudwatch events 
-vs cloudtrail
-CloudTrail
-Event history vs trail
-Event types
-Monitoring of global service 
-System manager
-Session manager
-Run command 
-Vs Opswork 
-Vs Appconfig
-Vs AWS config
-AWS Organizations
-Vs resource access manager
-Service control policy (SCP) vs IAM policy
-AWS Control Tower
-Vs organizations
-OpsWorks
-Vs CloudFormation
-CloudFormation
-CreationPolicy and cfn-signal
-Template structure
-Trusted advisor
-
-
+- **Management & Governance**
+  - ***CloudWatch***
+    - CloudTrail vs CloudWatch vs X-Ray 
+    - Cloudwatch logs vs CloudTrail vs VPC flow logs
+    - Metrics 
+      - EC2 metrics and detailed monitoring
+      - Lambda metrics
+      - Cloudwatch agent
+    - CloudWatch alarm actions
+      - Vs Cloudwatch Events
+    - Cloudwatch events 
+      - vs cloudtrail
+  - ***CloudTrail***
+    - Event history vs trail
+    - Event types
+    - Monitoring of global service 
+  - ***System manager***
+    - Session manager
+    - Run command 
+    - Vs Opswork 
+    - Vs Appconfig
+    - Vs AWS config
+  - ***AWS Organizations***
+    - Vs resource access manager
+    - Service control policy (SCP) vs IAM policy
+  - ***AWS Control Tower
+    - Vs organizations
+  - ***OpsWorks
+    - Vs CloudFormation
+  - ***CloudFormation
+    - CreationPolicy and cfn-signal
+    - Template structure
+  - ***Trusted advisor
 
 
 
