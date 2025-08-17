@@ -1,5 +1,7 @@
 # aws-solution-architect-associate-study-notes
 
+Written in 2020, please check latest documentation for accuracy.
+
 This is the study note for AWS solution architect associate certificate [SAA] where I've listed confusing concepts and their explanations in simple words. 
 
 I've studied AWS official doc (especially the faq part) with the help of acloudguru SAA Udemy course and Jon Bonso SAA Practice Test. I found those materials are well structured and informative but too much words, which is not efficient to review and easily overwhelms my brain. 
